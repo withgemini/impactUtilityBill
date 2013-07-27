@@ -18,28 +18,23 @@ Definition of community:
 Questions for the survey to suggest better practices:
 -shower
 -bath
--dihswasher
--dishes by hand (y/n)
+-dishwasher
 -laundry
--dripping system (y/n)
--gardenning (y/n)
--filter your drinking water (in fridge, container, sink) (y/n)
+-gardening 
 
 Recommendation systems:
 -goal setting 
 
 
 Model:
+-our DB
 -data that the user will input: person inputting his/her bill data, water usage in gallons 
 
-Controler:
--calculating the water usage 
+Controller:
+-calculates the water usage 
+-updates database
+-ontrols queries to the DB
 
 Viewer:
--how the user interacts with the website
+-just interface for the user
 -what's the most important info to display (less is better)
-
-
-
-
-
