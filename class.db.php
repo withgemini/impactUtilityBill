@@ -8,12 +8,10 @@ class LetterAdsDB extends SQLite3
     {
 		$this->open('ad_tool_db.db');
 		
-		$this->exec("CREATE TABLE IF NOT EXISTS email_ad_table (
+		$this->exec("CREATE TABLE IF NOT EXISTS utility_table (
 			id INTEGER PRIMARY KEY AUTOINCREMENT, 
-			name STRING, 
-			position STRING,
-			size STRING, 
-			link STRING)"
+			utility_name STRING, 
+			bill_date STRING)"
 			);
     }
 
