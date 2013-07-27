@@ -1,0 +1,45 @@
+Idea: 
+-visualizing data, figuring out impact of individuals on community
+-can be used for any utilities: water, electricity, etc. But focus on water for now.
+
+How to input data:
+-scan utility bill with the phone
+-enter the numbers by hand
+
+Individual info:
+-month (can combine into quarter and year)
+-share this info with server to create additional dataset that we can use for comparison
+
+
+Definition of community: 
+-county, zip, intersections/blocks
+
+
+Questions for the survey to suggest better practices:
+-shower
+-bath
+-dihswasher
+-dishes by hand (y/n)
+-laundry
+-dripping system (y/n)
+-gardenning (y/n)
+-filter your drinking water (in fridge, container, sink) (y/n)
+
+Recommendation systems:
+-goal setting 
+
+
+Model:
+-data that the user will input: person inputting his/her bill data, water usage in gallons 
+
+Controler:
+-calculating the water usage 
+
+Viewer:
+-how the user interacts with the website
+-what's the most important info to display (less is better)
+
+
+
+
+
