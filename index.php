@@ -3,7 +3,7 @@
 require_once('class.db.php');
 $db = new LetterAdsDB();
 
-$row = $db->fetchsql("SELECT * FROM email_ad_table WHERE id = ".$_REQUEST['id']);
+$row = $db->fetchsql("SELECT * FROM email_ad_table WHERE id = ".$_REQUEST['utility_name']);
 if ($row)
 {
 	
@@ -11,7 +11,6 @@ if ($row)
 
 if (isset($_POST['save'])) 
 {
-  session_start();
   $utility = trim($_POST['utility_name']);
   $amount = trim($_POST['amount']);
 }

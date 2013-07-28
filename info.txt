@@ -1,0 +1,19 @@
+http://www.epa.gov/WaterSense/pubs/indoor.html
+
+shower = .15
+bath = .10
+dishwasher = .03
+washingmachine = .12
+outdoors = .48
+other = .12
+
+monthly bill amount = user posted gallons
+daily amount = monthly bill amount / 30
+
+example:
+
+10,000 gals / 30 = 330 gals daily
+shower amount * .15 (shower average) = 49.5 gals
+49.5 gals / 2x daily = 24.75 gals per shower
+(max 3x daily = 74.25 gals, min 0)
+
